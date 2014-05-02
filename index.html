@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>App Dev 101</title>
+        <meta name="description" content="App Dev 101" />
+        <meta name="author" content="AJ Liptak" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="css/reveal.min.css" />
+        <link rel="stylesheet" href="css/theme/wmp.css" id="theme" />
+        <link rel="stylesheet" href="lib/css/tomorrow.css" />
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+            <section>
+              <h1>App Dev 101</h1>
+              <h4>Intro To Programming Languages</h4>
+              <p>
+                <small>Created by <a href="http://www.linkedin.com/profile/view?id=92440995">AJ Liptak</a></small>
+              </p>
+            </section>
+
+            <section>
+              <h1>Agenda</h1>
+              <ul>
+                <li>What is a Programming Language?</li>
+                <li>Interpreted vs Compiled Languages</li>
+                <li>Strongly vs Weakly Typed</li>
+                <li>Common Languages and Their Uses</li>
+                <li>Hello World</li>
+              </ul>
+            </section>
+            <section>
+              <section>
+                <h2>What is a Programming Language?</h2>
+              </section>
+              <section>
+                <h2>A way to tell a computer what to do</h2>
+                <ul>
+                  <li>Programs are just a series of detailed instructions</li>
+                  <li>Each language provides a way of giving instructions to the computer</li>
+                </ul>
+              </section>
+              <section>
+                <h2>Language Overview</h2>
+                  <ul>
+                    <li>Each language has different specialties</li>
+                    <li>Most languages can be grouped into categories based on uses</li>
+                    <li>Those categories generally share similar syntax</li>
+                  </ul>
+              </section>
+              <section>
+                <h2>Language Categories</h2>
+                <ul>
+                  <li>Describe Visual Layout</li>
+                  <li>Describe How Things Look</li>
+                  <li>Retrieve Data</li>
+                  <li>Logic</li>
+                </ul>
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>Markup Languages</h2>
+                <h4>Describe Visual Layout</h4>
+                <ul>
+                  <li>HTML</li>
+                  <li>XML</li>
+                  <li>XAML</li>
+                </ul>
+              </section>
+              <section>
+                <h2>HTML</h2>
+                <img src="img/HTML.png"/>
+              </section>
+              <section>
+                <h2>Tags</h2>
+                <img src="img/book-paragraph.jpg"/>
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>Styling Languages</h2>
+                <h4>Describe how things look</h4>
+                <ul>
+                  <li>CSS</li>
+                  <li>LESS</li>
+                  <li>SASS</li>
+                </ul>
+              </section>
+              <section>
+                <h2>CSS</h2>
+                <img src="img/css.png">
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>Querying Languages</h2>
+                <h4>Retrieve Data</h4>
+                <ul>
+                  <li>SQL</li>
+                  <li>LINQ</li>
+                  <li>HTSQL</li>
+                </ul>
+              </section>
+              <section>
+                <h2>SQL</h2>
+                <img src="img/sql.png"/>
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>Logic Languages</h2>
+                <h4>Control the Application</h4>
+                <ul>
+                  <li>C#</li>
+                  <li>Javascript</li>
+                  <li>Java</li>
+                  <li>Ruby</li>
+                </ul>
+              </section>
+              <section>
+                <h2>Complex Languages</h2>
+                <h4>Responsible For Most Things</h4>
+              </section>
+              <section>
+                <h2>C#</h2>
+                <img src="img/cSharp.png"/>
+              </section>
+              <section>
+                <h2>Javascript</h2>
+                <img src="img/js.png"/>
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>Interpreted vs Compiled</h2>
+                <h4>How Programs Run</h4>
+              </section>
+              <section>
+                <h2>Interpreted</h2>
+                <ul>
+                  <li>Need a Program To Evaluate Them</li>
+                  <li>Evaluated Just In Time</li>
+                  <li>Generally Weakly Typed</li>
+                </ul>
+              </section>
+              <section>
+                <h2>Examples</h2>
+                <ul>
+                  <li>Javascript</li>
+                  <li>Ruby</li>
+                </ul>
+              </section>
+              <section>
+                <h2>Compiled</h2>
+                <ul>
+                  <li>Evaluated Before Execution</li>
+                  <li>Converted To Machine Language</li>
+                  <li>Generally Strongly Typed</li>
+                </ul>
+              </section>
+              <section>
+                <h2>Examples</h2>
+                <ul>
+                  <li>C#</li>
+                  <li>Java</li>
+                  <li>Objective C</li>
+                </ul>
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>Strongly vs Weakly Typed</h2>
+                <h4>Var vs Typed</h4>
+              </section>
+              <section>
+                <h2>Strongly Typed</h2>
+                <ul>
+                  <li>Represents Only One Thing</li>
+                  <li>Things of Different Types Can Never Be Equal</li>
+                  <li>A variable of type int can not be set to a string</li>
+                  <li>
+                    <large><a href="http://ideone.com/Jv1vxT">Example</a></large>
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h2>Weakly Typed</h2>
+                <ul>
+                  <li>Everything is the same type</li>
+                  <li>Type is evaluated when it's interpreted based on value</li>
+                  <li>A variable of type int can equal a string</li>
+                  <li>
+                    <large><a href="http://jsfiddle.net/5jAps/">Example</a></large>
+                  </li>
+                </ul>
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>What Languages are used For What</h2>
+              </section>
+              <section>
+                <h2>Web Development</h2>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>C#</li>
+                  <li>Ruby</li>
+                </ul>
+              </section>
+              <section>
+                <h2>Desktop Apps</h2>
+                <ul>
+                  <li>C#</li>
+                  <li>Java</li>
+                  <li>Objective C</li>
+                </ul>
+              </section>
+              <section>
+                <h2>Back-End</h2>
+                <ul>
+                  <li>C#</li>
+                  <li>Java</li>
+                  <li>Javascript</li>
+                </ul>
+              </section>
+              <section>
+                <h2>Mobile Apps</h2>
+                <ul>
+                  <li>Objective C</li>
+                  <li>C#</li>
+                  <li>Java</li>
+                  <li>HTML CSS & Javascript</li>
+                </ul>
+              </section>
+            </section>
+            <section>
+              <h1>Hello World!</h1>
+            </section>
+            <section>
+              <h1>Questions</h1>
+            </section>
+          </div>
+        </div>
+        <footer>
+          &copy; 2014 West Monroe Partners &nbsp;&nbsp;|&nbsp;&nbsp; Reproduction and distribution without West Monroe Partners prior consent is prohibited
+        </footer>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+        <script>
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+            	controls: true,
+            	progress: true,
+            	history: true,
+            	center: true,
+            
+            	theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            	transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+            
+            	// Optional libraries used to extend on reveal.js
+            	dependencies: [
+            		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            		{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
+            	]
+            });
+            
+        </script>
+    </body>
+</html>
